@@ -1,0 +1,260 @@
+#menu{
+    background-color:rgb(6, 1, 41);
+    height: 70px;
+}
+.parent{
+    position: relative;
+}
+#console2{
+    position: absolute;
+    top:10px;
+    left: 30px;
+}
+#register{
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 5px 16px;
+    color: azure;
+    font-weight: 700;
+    background-color: blueviolet;
+    margin-left: 180px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(197, 193, 193);
+    font-size: 16px;
+}
+
+#navbar ul li a:hover::after{
+    content:"";
+    background-color: rgb(8, 19, 116);
+    display: block;
+    height: 3px;
+    border-radius: 25px;
+    }
+#navbar ul li a:hover{
+        font-size: 18px;
+
+}
+#page1{
+    background-color:rgb(6, 1, 41); 
+    height: 725px;
+    
+}
+.blur{
+    height: 300px;
+    width: 300px;
+    position:absolute ;
+    bottom: 150px;
+    left:-110px;
+    border-radius: 100%;
+    background-color:rgb(97, 35, 168);
+    filter: blur(95px);
+}
+.fpagecontent{
+    color: white;
+    width: 550px;
+    font-family: "Keania One", sans-serif;
+    font-style: normal;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    position: relative;
+    margin-top: 400px;
+    margin-left:50px ;
+}
+.fpagecontent .btn {
+    height: 45px;
+    width: 140px;
+    padding: 5px 10px;
+    font-size: 18px;
+     border: 1px solid blueviolet;
+     color: white;
+     font-weight: 500;
+     justify-content: start;
+     border-radius: 0px;
+}
+.fpagecontent #btn2 {
+    margin-left: 10px;
+}
+.fpagecontent .btn:hover {
+    background-color: blueviolet;
+}
+#mgun{
+    margin-top:420px ;
+    position: relative;
+    right: 15px;
+    z-index:5 ;
+}
+.blur2{
+    height: 300px;
+    width: 300px;
+    position:absolute ;
+    top: 450px;
+    /* right:-130px; */
+    border-radius: 100%;
+    background-color:rgb(97, 35, 168);
+    filter: blur(90px);
+    z-index: 1;
+
+}
+#page2{
+    background-color:rgb(6, 1, 41); 
+    height: 725px;
+    padding-top: 100px;
+
+}
+.sub1para{
+    font-size: 110px;
+    font-weight:600 ;
+    font-family: "Keania One", sans-serif;
+    color: white;
+    line-height: 100px;
+}
+.sub2para{
+    font-size: 55px;
+    font-weight:400 ;
+    color: white;
+    font-family: "Keania One", sans-serif;
+    line-height: 40px;
+    z-index: 5;
+
+}
+.sub3para{
+    font-size: 18px;
+    font-weight:400 ;
+    font-family: "Keania One", sans-serif;
+    color: white;
+    line-height: 5px;
+    z-index: 5;
+
+}
+.blur3{
+    height: 300px;
+    width: 300px;
+    top: 1200px;
+    position: absolute;
+    left:-110px;
+    border-radius: 100%;
+    background-color:rgb(97, 35, 168);
+    filter: blur(90px);
+}
+.blur4{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 1100px;
+    right:150px;
+    border-radius: 100%;
+    background-color:rgb(97, 35, 168);
+    filter: blur(100px);
+    z-index: 1;
+}
+#sndpage{
+    z-index: 5;
+}
+#page3{
+    background-color:rgb(6, 1, 41); 
+    height: 800px;
+
+}
+#subpage h1{
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+    font-family: "Keania One", sans-serif;
+}
+#pic2 img{
+    height:220px;
+    width: 380px;
+}
+#pic3 img {
+    height:285px;
+    width: 380px;
+    margin-bottom: 50px;
+}
+#pic1{
+    z-index: 3;
+}
+#pic1 img{
+    margin-left: 30px;
+}
+#pic4{
+    z-index: 3;
+}
+#page4{
+    background-color:rgb(6, 1, 41); 
+    height: 700px;
+}
+.details #de {
+    background-color:rgb(6, 1, 41); 
+    border: 2px solid grey;
+    height: 50px;
+    width: 600px;
+    padding: 5px 20px;
+    font-size: 25px;
+    color: white;
+
+}
+.details #de1 {
+    background-color:rgb(6, 1, 41); 
+    border: 2px solid grey;
+    height: 50px;
+    width: 600px;
+    color: white;
+    margin-left: 21px;
+    padding: 5px 20px;
+    font-size: 25px;
+}
+.details #de2{
+    background-color:rgb(6, 1, 41); 
+    border: 2px solid grey;
+    color: white;
+    height: 250px;
+    width: 600px;
+    margin-left: 21px;
+    padding: 5px 20px;
+    font-size: 25px;
+}
+#sub{
+    height: 50px;
+    width: 600px;
+    background-color: blueviolet;
+    margin-left: 18px;
+    margin-top: 20px;
+    font-size: large;
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+#sub a{
+    color: white;
+    text-decoration: none;
+}
+#footer{
+    background-color: blueviolet;
+    color: white;
+    height: 50px;
+    font-weight: 700;
+}
+.blur5{
+    height: 300px;
+    width: 300px;
+    top: 2100px;
+    position: absolute;
+    left:-110px;
+    border-radius: 100%;
+    background-color:rgb(97, 35, 168);
+    filter: blur(90px);
+    z-index: 1;
+}
+.blur4{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 1700px;
+    right:150px;
+    border-radius: 100%;
+    background-color:rgb(97, 35, 168);
+    filter: blur(100px);
+    z-index: 1;
+}
